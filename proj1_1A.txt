@@ -1,0 +1,26 @@
+Partner 1 name: Chia-Hao Chiao
+Partner 1 login: cs61c-un
+Partner 2 name: Ian Fox
+Partner 2 login: cs61c-ok
+
+CS61C Spring 2014 Project 1 Task A Writeup
+
+1. For each of the test image provided in advanced_tests/, which images are not recognized correctly?
+
+sans_serif_5
+serif_5
+serif_8
+
+
+
+2. For each test image listed in the previous question, What is the difference in "digit distances" between the recognized digit and the digit it is supposed to be (e.g. if a digit 3 is recognized as 8, and 3 has a "digit distance" of 10 while 8 has a "digit distance" of 20, then difference in distances is 20 - 10 = 10).
+
+sans_serif_5: 8969982 (5 and 6)
+serif_5: 9216499 (5 and 1)
+serif_8: 6116396 (8 and 2)
+
+
+
+3. Give a one to two sentence explanation on why you think the images mentioned above are recognized incorrectly.
+
+The shape of the image is close to another number in different font. For example, the shape of sans_serif_5.bmp is actually closer to 6 than the 5 from template.
